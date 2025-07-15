@@ -13,10 +13,8 @@ Hugging Face에서 제공하는 사전학습 모델을 사용하고, Streamlit�
 
 서빙 방식: FastAPI 기반 RESTful API로 모델 서빙
 
-모델 예시: 딥페이크 판별용 deepfake-detection 모델
 
-2. 인퍼런스 서버 (High CPU 서버)
-서버 스펙 (Naver Cloud High CPU):
+2. 서버 스펙 (Naver Cloud High CPU):
 
 vCPU: 4 Core RAM: 32GB
 
@@ -32,24 +30,10 @@ vCPU: 32 Core RAM: 64GB
 
 결과 시각화 (딥페이크 여부 등)
 
-Archive 기능 제공 (결과 저장)
 
 백엔드 연동: FastAPI와 연동하여 모델 예측값 수신
 
-4. 스토리지 및 데이터베이스
-Naver Storage:
 
-사용자 업로드 이미지 저장
-
-웹 애플리케이션에서 접근 필요
-
-클라우드 DB:
-
-사용자 요청 기록 저장
-
-예측 결과 저장
-
-향후 통계 기능 활용 가능
 
 ✅ 개발 순서 및 주요 구현 포인트
 Streamlit 기반 UI 개발
@@ -79,7 +63,7 @@ AI Framework	PyTorch, Transformers
 
 API 서버	FastAPI
 
-웹 프론트	Streamlit
+웹 프론트/백엔드	Streamlit
 
 스토리지	Naver Object Storage
 
