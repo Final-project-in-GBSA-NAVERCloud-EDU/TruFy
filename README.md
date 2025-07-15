@@ -59,11 +59,11 @@ Streamlit 및 FastAPI와 연동
 
 구성 요소	기술
 
-AI Framework	PyTorch, Transformers
+AI Framework	Tensorflow, PyTorch, Transformers
 
 API 서버	FastAPI
 
-웹 프론트/백엔드	Streamlit
+웹 프론트	Streamlit
 
 스토리지	Naver Object Storage
 
