@@ -1,5 +1,7 @@
 🧠 Deepfake Detection Web Service
+
 📌 프로젝트 개요
+
 AI 기반의 딥페이크 탐지 모델을 활용하여 웹에서 실시간으로 이미지/영상을 분석하고 딥페이크 여부를 판별하는 서비스입니다. 
 Hugging Face에서 제공하는 사전학습 모델을 사용하고, Streamlit을 통해 직관적인 웹 인터페이스를 제공합니다.
 
@@ -17,10 +19,12 @@ Hugging Face에서 제공하는 사전학습 모델을 사용하고, Streamlit�
 서버 스펙 (Naver Cloud High CPU):
 
 vCPU: 4 Core RAM: 32GB
+
 vCPU: 32 Core RAM: 64GB
 
 
 3. 웹 애플리케이션 (Streamlit 기반)
+
 프레임워크: Streamlit
 
 기능:
@@ -68,10 +72,15 @@ Streamlit 및 FastAPI와 연동
 
 
 🛠 기술 스택
+
 구성 요소	기술
+
 AI Framework	PyTorch, Transformers
+
 API 서버	FastAPI
+
 웹 프론트	Streamlit
+
 스토리지	Naver Object Storage
-DB	Cloud DB (MySQL 등)
-인프라	Naver Cloud (High CPU 인스턴스)
+
+DB	MySQL
