@@ -29,7 +29,7 @@ Hugging Face에서 제공하는 사전학습 모델을 사용하고, Streamlit�
 - **모델 처리 흐름**:  
   - 이미지 입력 → 전처리 → 모델 추론 → 딥페이크 여부 결과 반환
 
-### 2. ⚙️ 인퍼런스 서버 (High CPU 서버)
+### 2. ⚙️ 서버 (High CPU 서버)
 
 - **서버 환경 (Naver Cloud High CPU 인스턴스)**:
   - 프론트/백엔드 서버: vCPU 4 Core / RAM 32GB
