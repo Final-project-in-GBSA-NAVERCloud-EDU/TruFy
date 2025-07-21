@@ -66,7 +66,7 @@ Hugging Face에서 제공하는 사전학습 모델을 사용하고, Streamlit�
 | 4 | FastAPI를 이용한 RESTful API 서버 구축 |
 | 5 | CPU 환경에 맞춘 모델 최적화 |
 | 6 | 결과 저장용 데이터베이스 설계 및 연동 |
-| 7 | Streamlit ↔ FastAPI 간 예측 결과 연결 |
+
 
 ---
 
