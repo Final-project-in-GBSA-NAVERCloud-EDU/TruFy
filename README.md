@@ -32,8 +32,8 @@ Hugging Face에서 제공하는 사전학습 모델을 사용하고, Streamlit�
 ### 2. ⚙️ 인퍼런스 서버 (High CPU 서버)
 
 - **서버 환경 (Naver Cloud High CPU 인스턴스)**:
-  - 선택 1: vCPU 4 Core / RAM 32GB
-  - 선택 2: vCPU 32 Core / RAM 64GB
+  - 프론트/백엔드 서버: vCPU 4 Core / RAM 32GB
+  - 모델 서버: vCPU 32 Core / RAM 64GB
 - GUI 없는 환경에서 최적화된 추론 처리
 
 ### 3. 🌐 웹 애플리케이션 (Streamlit)
